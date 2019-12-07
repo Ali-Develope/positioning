@@ -1,0 +1,28 @@
+body {
+  font-size: 30px;
+}
+
+.parent {
+  background: red;
+  padding: 10px;
+  position: relative;
+  height: 200vh;
+}
+
+.child-1 {
+  background: orange;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+
+.child-2 {
+  background: yellow;
+  padding: 5px;
+}
+
+.child-3 {
+  background: lime;
+  padding: 5px;
+}
